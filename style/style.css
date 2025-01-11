@@ -1,0 +1,138 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    text-transform: ;
+
+}
+ul {
+    list-style: none;
+}
+i {
+    display: inline-block;
+}
+
+.header-area {
+    max-width: 1170px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+.logo-area {
+    flex-grow: 2;
+}
+.menu-area {
+    flex-grow: 8;
+}
+.menu-area ul {
+    display: flex;
+}
+.menu-area ul li {
+    padding: 0 10px;
+}
+.menu-area ul li a:hover {
+    color: #3857EC;
+    border-bottom: 2px solid #3857EC;
+}
+.menu-area a{
+    
+}
+.cart-area{
+    flex-grow: 1;
+}
+.cart a {
+    color: #3857EC;
+}
+.login-area{
+    flex-grow: 1;
+}
+.login {
+    border: 2px solid #3857EC;
+    border-radius: 340px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.login a {
+    color: #3857EC;
+}
+.moving-text {
+    padding: 10px 0;
+}
+.moving-text marquee {
+    margin: 0 150px;
+    font-size: 25px; 
+    animation: marquee 15s linear infinite;
+    animation-delay: 10s;
+}
+article {
+    width: 100%;
+    height: 800px;
+    background-image: url('../rsc/body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 200px;
+}
+.body-content {
+    margin: 0 150px;
+}
+.body-content ul {
+    display: flex;
+}
+.body-content ul li { 
+    padding: 0 5px;
+}
+.one { 
+    padding: 10px;
+    color: white;
+    font-size: x-large;
+}
+.two {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.three {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.four {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.five {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+button
+{
+    color: white;
+    background-color: green;
+    border: none;
+    height: 40px;
+    width: 280px;
+    padding: 1px;
+    border-radius: 4px;
+    margin-left: 180px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(79, 179, 35);
+}
+.popular-course ul
